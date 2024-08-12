@@ -1,0 +1,20 @@
+{
+  "name": "social_app",
+  "version": "1.0.0",
+  "description": "my_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "create-react-app": "^5.0.1"
+  }
+}
