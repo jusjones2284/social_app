@@ -28,13 +28,17 @@ const topbar = () => {
               </div>
               <div className="topbarIconItem">
                 <Notifications />
-                <span className="topbarIconBadge">1</span>
+                <span className="topbarIconBadge">2</span>
               </div>
               <div className="topbarIconItem">
                 <Chat />
-                <span className="topbarIconBadge">1</span>
+                <span className="topbarIconBadge">3</span>
               </div>               
             </div>
+            <img src="/assets/profiles/3.png" 
+            className='topbarImg'
+            alt=''
+             />
         </div>
     </div>
     
