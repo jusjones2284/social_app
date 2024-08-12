@@ -36,12 +36,12 @@
   
   .searchIcon {
     font-size: 20px !important;
-    margin-left: 10px;
+    margin-left: 80px;
   }
   
   .searchInput {
     border: none;
-    width: 70%;
+    width: 80%;
   }
   
   .searchInput:focus {

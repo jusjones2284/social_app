@@ -13,7 +13,7 @@ const topbar = () => {
         <div className="topbarCenter">
           <div className="searchbar">
             <input placeholder='Search for friend, post or video' className='searchInput' />
-            <SearchIcon />
+            <SearchIcon className='searchIcon'/>
           </div>
         </div>
         <div className="topbarRight">
