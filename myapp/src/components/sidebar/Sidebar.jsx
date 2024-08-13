@@ -7,8 +7,8 @@ import TheatersIcon from '@mui/icons-material/Theaters';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-        <div className="sidebarWrapper"></div>
-            <ul className="sidebarList">
+        <div className="sidebarWrapper">
+                   <ul className="sidebarList">
                 <li className="sidebarListItem">
                     <RssFeed className="sidebarIcon"/>
                     <span className="sidebarListItemText">Feed</span>
@@ -46,7 +46,60 @@ const Sidebar = () => {
             <span className="sidebarListItemText">Theaters</span>
           </li>
             </ul>
-       sidebar
+            <button className="sidebarButton">press me</button>
+            <hr className="sidebarHr" />
+            <ul className="sidebarFriendList">
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFirendImg" src="/assets/profiles/2.jpg" />
+                    <span className="sidebarFriendName">Mickal Jones</span>
+                </li>
+            </ul>
+        </div>
+     
     </div>
   )
 }

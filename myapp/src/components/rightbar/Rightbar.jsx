@@ -2,7 +2,7 @@ import '/Users/justinjones/Desktop/Tech/Continious Learning/social_app/myapp/src
 
 const Rightbar = () => {
   return (
-    <div className='rightbar'>Rightbar</div>
+    <div className='rightbar'> </div>
   )
 }
 
