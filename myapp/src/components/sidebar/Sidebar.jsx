@@ -19,7 +19,7 @@ const Sidebar = () => {
           </li>
           <li className="sidebarListItem">
             <PlayCircleFilledOutlined className="sidebarIcon" />
-            <span className="sidebarListItemText">Trailer</span>
+            <span className="sidebarListItemText">Highlights</span>
           </li>
           <li className="sidebarListItem">
             <Group className="sidebarIcon" />
@@ -35,15 +35,15 @@ const Sidebar = () => {
           </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" />
-            <span className="sidebarListItemText">Movie Set Openings</span>
+            <span className="sidebarListItemText">Games</span>
           </li>
           <li className="sidebarListItem">
             <Event className="sidebarIcon" />
-            <span className="sidebarListItemText">Movie Premiers</span>
+            <span className="sidebarListItemText">Top Players</span>
           </li>
           <li className="sidebarListItem">
             <TheatersIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Theaters</span>
+            <span className="sidebarListItemText">Locations</span>
           </li>
             </ul>
             <button className="sidebarButton">press me</button>
