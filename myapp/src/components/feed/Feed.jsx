@@ -1,3 +1,4 @@
+import Post from "../post/Post"
 import Share from "../share/Share"
 
 const Feed = () => {
@@ -5,6 +6,7 @@ const Feed = () => {
     <div className="feed">
       <div className="feedWrapper">
         <Share />
+        <Post />
       </div>
     </div>
   )
