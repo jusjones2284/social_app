@@ -5,7 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import Sidebar from "../../components/sidebar/Sidebar";
 import Rightbar from "../../components/rightbar/Rightbar";
 import Feed from "../../components/feed/Feed";
-
+import { Users } from "../../data";
 
 
 
@@ -16,7 +16,10 @@ const Home = () => {
               <div className="homeContainer">
                 <Sidebar />
                 <Feed />
-                <Rightbar />
+               
+                  <Rightbar  />
+             
+                
               </div>
             </>
           )
