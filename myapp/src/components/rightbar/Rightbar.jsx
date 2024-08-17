@@ -1,7 +1,9 @@
 import { Users } from '../../data'
+import Online from '../online/online'
 import '/Users/justinjones/Desktop/Tech/Continious Learning/social_app/myapp/src/components/rightbar/rightbar.css'
 
 const Rightbar = () => {
+
 
   return (
     <div className='rightbar'> 
@@ -13,18 +15,8 @@ const Rightbar = () => {
              </span>
            </div>
            <img src='assets/nfl.jpeg' className='rightbarAd'/>
-           <h4 className='rightbarTitle'>Online</h4>
-           <ul className='rightbarFriendList'>
-             <li className="rightBarFriend">
-               <div className="rightbarProfileImgContainer">
-                 <img src="assets/profiles/2.jpg" alt=""
-                 className='rightbarProfileImg'
-                 />
-                 <span className='rightbarOnline'></span>
-               </div>
-               <span className='rightbarUsername'>Mickal Jones</span>
-             </li>
-           </ul>
+           {Users.map(u =>(<Online key={u.id} user={u.username} profilePicture={u.profilePicture}/>))}
+
        </div>
     </div>
   )
