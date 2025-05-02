@@ -15,19 +15,7 @@ import Profile from "../profile/Profile";
 const Home = () => {
           return (
             <>
-            <Topbar />
-              <div className="homeContainer">
-                <Sidebar />
-                <Feed />
-                <Profile />
-                
-               
-                  <Rightbar  />
-                  
-                  
-             
-                
-              </div>
+           
             </>
           )
 }

@@ -2,7 +2,7 @@ import { Users } from '../../data'
 import Online from '../online/online'
 import '/Users/justinjones/Desktop/Tech/Continious Learning/social_app/myapp/src/components/rightbar/rightbar.css'
 
-const Rightbar = () => {
+const Rightbar = ({profile}) => {
 
 
   return (
